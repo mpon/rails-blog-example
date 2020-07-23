@@ -9,7 +9,6 @@ WORKDIR /blog
 COPY Gemfile /blog/Gemfile
 COPY Gemfile.lock /blog/Gemfile.lock
 RUN bundle install
-RUN yarn install
 COPY . /blog
 
 # Add a script to be executed every time the container starts.
@@ -19,6 +18,7 @@ ENTRYPOINT ["entrypoint.sh"]
 EXPOSE 3000
 
 # assets:precompile
+RUN yarn install
 RUN rails assets:precompile
 
 # Start the main process.
