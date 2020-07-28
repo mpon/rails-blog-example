@@ -1,6 +1,7 @@
 namespace :scheduled do
-  desc "Get First Article"
-  task :get_first_article => :environment do
-    puts Article.first().to_json
+  desc "Export"
+  task :export => :environment do
+    puts Article.all().to_json
+    puts Comment.all().to_json
   end
 end
