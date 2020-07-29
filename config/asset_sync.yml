@@ -20,7 +20,7 @@ defaults: &defaults
   fog_directory: <%= ENV['ASSET_BUCKET'] %>
 
   # You may need to specify what region your storage bucket is in
-  # fog_region: <%= ENV['AWS_REGION'] %>
+  fog_region: <%= ENV['AWS_REGION'] %>
 
   # Set `public` option when uploading file depending on value,
   # Setting to "default" makes asset sync skip setting the option
