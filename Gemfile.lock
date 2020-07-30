@@ -129,6 +129,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    okcomputer (1.18.2)
     pg (1.2.3)
     public_suffix (4.0.5)
     puma (4.3.5)
@@ -236,6 +237,7 @@ DEPENDENCIES
   fog-aws
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  okcomputer
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.1)
