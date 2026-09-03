@@ -2,9 +2,9 @@
   "name": "blog",
   "private": true,
   "dependencies": {
-    "@rails/actioncable": "6.0.3",
-    "@rails/activestorage": "6.0.3",
-    "@rails/ujs": "6.0.3",
+    "@rails/actioncable": "7.2.302",
+    "@rails/activestorage": "7.2.302",
+    "@rails/ujs": "7.1.2",
     "@rails/webpacker": "4.2.2",
     "turbolinks": "5.2.0"
   },
